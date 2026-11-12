@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "615613532039",
+    "project_id": "pulsartracker-2a054",
+    "storage_bucket": "pulsartracker-2a054.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615613532039:android:12bdb97de71af80f903522",
+        "android_client_info": {
+          "package_name": "com.example.pulsar_tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcXJNyM459pTb5LD8NPVhgFLl_Gu_yTnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
