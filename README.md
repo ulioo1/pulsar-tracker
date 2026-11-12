@@ -1,17 +1,29 @@
-# pulsar_tracker
+# Pulsar Tracker 🌌
 
-A new Flutter project.
+A cross-platform performance and activity tracking application built with Flutter and Firebase. Pulsar Tracker is designed to provide real-time insights and data management for daily metrics, focusing on a scalable architecture and a clean user experience.
 
-## Getting Started
+##  Features
+- **Cross-Platform Support:** Optimized for Web and Mobile platforms from a single codebase.
+- **Real-Time Data Integration:** Powered by Firebase backend infrastructure.
+- **Clean Architecture:** Feature-driven folder structure (`core/`, `features/`) for maintainability.
+- **Responsive UI:** Custom-built widgets adapting to different screen sizes.
 
-This project is a starting point for a Flutter application.
+##  Tech Stack
+- **Framework:** Flutter / Dart
+- **Backend & Hosting:** Firebase (Core, Hosting)
+- **Architecture:** Feature-first approach
 
-A few resources to get you started if this is your first Flutter project:
+##  Roadmap & Active Development
+This project is currently in active development. Upcoming tasks to be integrated (perfect for AI-assisted coding):
+- [ ] Implement advanced data filtering algorithms for the main dashboard.
+- [ ] Optimize Firebase database queries to reduce read operations on the web client.
+- [ ] Implement local caching for offline support.
+- [ ] Refactor data models for comprehensive unit testing.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+##  Getting Started
+To run this project locally on your machine:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository.
+2. Ensure you have the Flutter SDK installed.
+3. Run `flutter pub get` to fetch all dependencies.
+4. Execute `flutter run -d web-server` to launch the web client.
