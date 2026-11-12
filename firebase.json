@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "pulsartracker-2a054",
+          "appId": "1:615613532039:android:12bdb97de71af80f903522",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "pulsartracker-2a054",
+          "configurations": {
+            "android": "1:615613532039:android:12bdb97de71af80f903522",
+            "ios": "1:615613532039:ios:0afb789af2a8cf41903522",
+            "macos": "1:615613532039:ios:0afb789af2a8cf41903522",
+            "web": "1:615613532039:web:c8eed8072b80d5f8903522",
+            "windows": "1:615613532039:web:68ee3889fbd60427903522"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
